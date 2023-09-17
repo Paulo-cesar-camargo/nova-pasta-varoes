@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid de Cards Responsivos</title>
+    <style>
+        /* Estilize o corpo da página conforme necessário */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0752d;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Estilo do container do grid */
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            max-width: 800px;
+        }
+
+        /* Estilo do card individual */
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            flex: 1;
+            min-width: calc(33.33% - 20px);
+            box-sizing: border-box;
+        }
+
+        /* Estilo de exemplo para o conteúdo do card */
+        .card h2 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .titulo-galeria{
+            
+
+        }
+
+        .card p {
+            margin: 10px 0;
+        }
+
+        /* Estilo para tornar o grid responsivo */
+        @media (max-width: 768px) {
+            .card {
+                min-width: calc(50% - 20px);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .card {
+                min-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body></body>
+
+    <div class="card-container">
+        <hr>
+        <h1 class="titulo-galeria">GALERIA DE FOTOS SÃO PEDRO 1</h1>
+        <hr>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure earum dolores facilis natus?.</p>
+        </div>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quae at exercitationem alias.</p>
+        </div>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi expedita dicta totam .</p>
+        </div>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure earum dolores facilis natus?.</p>
+        </div>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quae at exercitationem alias.</p>
+        </div>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi expedita dicta totam .</p>
+        </div>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure earum dolores facilis natus?.</p>
+        </div>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio quae at exercitationem alias.</p>
+        </div>
+        <div class="card">
+            <img src="img/gideoes.jpg" alt="">
+            <h2>Card 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi expedita dicta totam .</p>
+        </div>
+        
+        <!-- Adicione mais cards conforme necessário -->
+    </div>
+</body>
+</html>
